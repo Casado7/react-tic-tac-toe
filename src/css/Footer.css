@@ -1,0 +1,19 @@
+.foot-container{
+    color:white;
+}
+.madewith{
+    
+    font-size: 13px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.madeby{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+

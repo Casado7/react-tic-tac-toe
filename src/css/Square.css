@@ -1,0 +1,35 @@
+.square-container{
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 55px;
+    background-color: #1c1e21;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin: 4px;
+    user-select: none;
+}
+
+.X-square{
+    background-color: #00993b;
+}
+
+.O-square{
+    background-color: orange;
+} 
+
+.empty-square{
+    cursor: pointer;
+}
+
+.empty-square:hover{
+    background-color: #5a01a7;
+
+}
+.square-container.highlight {
+    background: #ddd
+  }

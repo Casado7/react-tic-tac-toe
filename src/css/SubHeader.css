@@ -1,0 +1,10 @@
+.subheader{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding-bottom: 0px;
+}

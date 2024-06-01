@@ -1,0 +1,51 @@
+.game{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    width: 320px;
+    height: 320px;
+    padding: 14px;
+    background-color: #0077ff;
+    border-radius: 20px;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.msg-box{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding-bottom: 10px;
+    font-weight: bold
+}
+
+.reset-button{
+    width: 348px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin-top: 4px;
+    border: 2px solid white;
+    cursor: pointer;
+}
