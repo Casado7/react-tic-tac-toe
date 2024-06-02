@@ -5,11 +5,11 @@ function SubHeader(props){
 
 
     return (
-        <div>
+        <div className='subheader-container'>
             <div className='subheader'>
                 {props.children}
             </div>
-      </div>
+        </div>
     )
 }
 
